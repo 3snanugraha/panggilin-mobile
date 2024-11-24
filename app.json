@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Panggilin",
+    "slug": "panggilin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/panggilin.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/panggilin-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/panggilin.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.panggilin.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/panggilin.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
